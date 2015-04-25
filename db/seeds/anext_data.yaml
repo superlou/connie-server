@@ -1,0 +1,396 @@
+convention:
+  name: AnimeNext 2010
+  auth_requirements:
+    - {action: "read", requirement: "*:*"}
+    - {action: "manage", requirement: "*:*"}
+events:
+  - name: BlazBlue & King of Fighters 2002 Ultimate Match
+    start: June 18th 2010 7:00PM
+    end: June 18th 2010 9:00PM
+  - name: Tatsunoki vs. Capcom & Vampire Savior
+    start: June 18th 2010 9:00PM
+    end: June 18th 2010 10:30PM
+  - name: Dealers Room Friday
+    start: June 18th 2010 12:30PM
+    end: June 18th 2010 8:00PM
+  - name: Manga Library Friday
+    start: June 18th 2010 10:00AM
+    end: June 19th 2010 12:00AM
+  - name: Art Show
+    start: June 18th 2010 12:00PM
+    end: June 19th 2010 12:00AM
+  - name: Masquerade Rehearsal Part 1
+    start: June 18th 2010 1:00PM
+    end: June 18th 2010 3:30PM
+  - name: Launch Party
+    start: June 18th 2010 4:00PM
+    end: June 18th 2010 5:30PM
+  - name: Kenji Kamiyama
+    start: June 18th 2010 6:00PM
+    end: June 18th 2010 7:00PM
+  - name: Concert Seating
+    start: June 18th 2010 8:00PM
+    end: June 18th 2010 9:00PM
+  - name: Stereopony Concert
+    start: June 18th 2010 9:00PM
+    end: June 18th 2010 10:00PM
+  - name: Uncle Yo
+    start: June 18th 2010 10:30PM
+    end: June 18th 2010 11:30PM
+  - name: Cosplay Burlesque
+    start: June 19th 2010 12:00AM
+    end: June 19th 2010 2:00AM
+  - name: AMV Screening
+    start: June 18th 2010 2:30PM
+    end: June 18th 2010 4:00PM
+  - name: Kenji Kamiyama Autograph Session
+    start: June 18th 2010 4:30PM
+    end: June 18th 2010 5:30PM
+  - name: Anime Parliament
+    start: June 18th 2010 6:00PM
+    end: June 18th 2010 8:00PM
+  - name: Stereopony Green Room
+    start: June 18th 2010 7:00PM
+    end: June 18th 2010 10:00PM
+  - name: Sleeping Samurai
+    start: June 18th 2010 12:00PM
+    end: June 18th 2010 10:00PM
+  - name: Big Bald Broadcast
+    start: June 18th 2010 1:00PM
+    end: June 18th 2010 2:00PM
+  - name: Crossplay for Girls
+    start: June 18th 2010 2:00PM
+    end: June 18th 2010 3:30PM
+  - name: 'Baron Munchausen - Charity Drive'
+    start: June 18th 2010 4:00PM
+    end: June 18th 2010 5:00PM
+  - name: 'Hetalia: 2010 World Summit'
+    start: June 18th 2010 5:30PM
+    end: June 18th 2010 7:00PM
+  - name: 'Robotech: Goes to the Movies'
+    start: June 18th 2010 7:00PM
+    end: June 18th 2010 8:00PM
+  - name: 'Greg Ayres: From Host Club to Hospital'
+    start: June 18th 2010 8:30PM
+    end: June 18th 2010 10:00PM
+  - name: These are a Few of my Favorite Scenes
+    start: June 18th 2010 10:00PM
+    end: June 19th 2010 12:00AM
+  - name: Convention Ettiquete
+    start: June 18th 2010 1:00PM
+    end: June 18th 2010 2:00PM
+  - name: How to Spot Bootleg Merchandise
+    start: June 18th 2010 2:00PM
+    end: June 18th 2010 3:00PM
+  - name: Soul Eater Fan Panel
+    start: June 18th 2010 4:00PM
+    end: June 18th 2010 5:00PM
+  - name: "Elrik Blackwolf's Storyline Writina"
+    start: June 18th 2010 5:30PM
+    end: June 18th 2010 6:30PM
+  - name: "Dead Like Us: Shinigami"
+    start: June 18th 2010 7:00PM
+    end: June 18th 2010 8:00PM
+  - name: "Ask the Organization"
+    start: June 18th 2010 8:00PM
+    end: June 18th 2010 9:00PM
+  - name: "Restricted Rock, Paper, Scissors"
+    start: June 18th 2010  9:00PM
+    end: June 18th 2010 10:00PM
+  - name: "18+ Anime Uncensored"
+    start: June 18th 2010 11:00PM
+    end: June 19th 2010 12:00AM
+  - name: Rando-me!
+    start: June 18th 2010 12PM
+    end: June 18th 2010 1PM
+    reserves: Panel 3
+  - name: Shugo Chara Party
+    start: June 18th 2010 1pm
+    end: June 18th 2010 2:30pm
+    reserves: Panel 3
+  - name: I Make You Miku Miku
+    start: June 18th 2010 3:00pm
+    end: June 18th 2010 4:00pm
+    reserves: Panel 3
+  - name: "Kimono: Alure, Fashion & History"
+    start: June 18th 2010 4pm
+    end: June 18th 2010 5pm
+    reserves: Panel 3
+  - name: "Magical Worlds of Hayao Miyazaki"
+    start: June 18th 2010 5pm
+    end: June 18th 2010 6pm
+    reserves: Panel 3
+  - name: "Anime/Manga Influence on the US"
+    start: June 18th 2010 6:30pm
+    end: June 18th 2010 7:30pm
+    reserves: Panel 3
+  - name: Princess Poofy Dress
+    start: June 18th 2010 8pm
+    end: June 18th 2010 9pm
+    reserves: Panel 3
+  - name: Sailor Moon Abridged Panel
+    start: June 18th 2010 9pm
+    end: June 18th 2010 10pm
+    reserves: Panel 3
+  - name: Baccano!
+    start: June 18th 2010 10pm
+    end: June 18th 2010 11pm
+    reserves: Panel 3
+  - name: Dating Game 18+
+    start: June 18th 2010 11pm
+    end: June 18th 2010 12:30pm
+    reserves: Panel 3
+  - name: A Workshop in Manga Storytelling
+    start: June 18th 2010 2pm
+    end: June 18th 2010 3:30pm
+    reserves: Panel 4
+  - name: History of Mecha
+    start: June 18th 2010 5:30pm
+    end: June 18th 2010 6:30pm
+    reserves: Panel 4
+  - name: The Science of Anime
+    start: June 18th 2010 8pm
+    end: June 18th 2010 9pm
+    reserves: Panel 4
+  - name: "Hetalia: Draw a Circle, There's a Panel"
+    start: June 18th 2010 1pm
+    end: June 18th 2010 2pm
+    reserves: Panel 5
+  - name: Hello! Project Idol Madness
+    start: June 18th 2010 2pm
+    end: June 18th 2010 3pm
+    reserves: Panel 5
+  - name: The Best of Martial Arts Fight Scenes
+    start: June 18th 2010 3pm
+    end: June 18th 2010 4:30pm
+    reserves: Panel 5
+  - name: AniMyu (Anime Musical)
+    start: June 18th 2010 5pm
+    end: June 18th 2010 6pm
+    resrves: Panel 5
+  - name: Super Mario Super Panel
+    start: June 18th 2010 6:30pm
+    end: June 18th 2010 7:30pm
+    reserves: Panel 5
+  - name: VOCALOID Panel
+    start: June 18th 2010 8pm
+    end: June 18th 2010 9:30pm
+    reserves: Panel 5
+  - name: Con & Cosplay Etiquette (uncensored) (18+)
+    start: June 18th 2010 10pm
+    end: June 18th 2010 11:30pm
+    reserves: Panel 5
+  - name: Cosplay Modeling
+    start: June 18th 2010 2pm
+    end: June 18th 2010 3pm
+    reserves: Panel 6
+  - name: "Fandom & Criticism: Art of Active Viewing"
+    start: June 18th 2010 3pm
+    end: June 18th 2010 4pm
+    reserves: Panel 6
+  - name: "King of Fighters: Past to Present"
+    start: June 18th 2010 4:30pm
+    end: June 18th 2010 5:30pm
+    reserves: Panel 6
+  - name: Cosplay Electronics 101
+    start: June 18th 2010 6pm
+    end: June 18th 2010 8pm
+    reserves: Panel 6
+  - name: Cosplay Randomness
+    start: June 18th 2010 8pm
+    end: June 18th 2010 9pm
+    reserves: Panel 6
+  - name: "The D.Gray-Man Panel"
+    start: June 18th 2010 9pm
+    end: June 18th 2010 10pm
+    reserves: Panel 6
+  - name: Why We Love to Hate Video Games
+    start: June 18th 2010 10pm
+    end: June 18th 2010 11:30pm
+    reserves: Panel 6
+places:
+  - {name: GSEC Campus 2010, space_type: area, map_image: gsec_campus.png, address: "50 Atrium Drive\nSomerset, NJ 08873"}
+
+  - {name: Holiday Inn Hotel, parent: GSEC Campus 2010, space_type: building, map_image: holiday_inn.png, address: "195 Davidson Avenue\nSomerset, NJ 08873"}
+  - {name: Ground Floor, parent: Holiday Inn Hotel, space_type: floor}
+  - {name: Video Gaming, venue_designated_name: Salon, parent: Ground Floor, space_type: area}
+  - {name: "Video Games: Classic Focus", venue_designated_name: Salon A, space_type: room, parent: Video Gaming}
+  - {name: "Video Games: Multiplayer Focus", venue_designated_name: Salon B, space_type: room, parent: Video Gaming}
+  - {name: "Video Games: Current Focus", venue_designated_name: Salon C, space_type: room, parent: Video Gaming}
+  - {name: "Video Games: Tournaments", venue_designated_name: Salon D, space_type: room, parent: Video Gaming}
+  - {name: "Rockband Room", venue_designated_name: Concord, space_type: room, parent: Video Gaming}
+  - {name: "Gaming Video Room 1", venue_designated_name: Bennington, space_type: room, parent: Video Gaming}
+  - {name: "Gaming Video Room 2", venue_designated_name: Ambrose, space_type: room, parent: Video Gaming}
+
+  - {name: Double Tree Hotel, parent: GSEC Campus 2010, space_type: building, address: "200 Atrium Drive\nSomerset, NJ 08773"}
+  - {name: 1st Floor, parent: Double Tree Hotel, space_type: floor, map_image: dt_1st_floor.png}
+  - {name: Artist's Alley, venue_designated_name: Somerset Ballroom, parent: 1st Floor, space_type: area, map_image: artist_alley.png}
+  - {name: Panel 1, parent: 1st Floor, space_type: room}
+  - {name: Manga Library, parent: 1st Floor, space_type: room}
+  - {name: Table Top Gaming, parent: 1st Floor, space_type: room}
+  - {name: Masquerade HQ, parent: 1st Floor, space_type: room}
+  - {name: Hall Cosplay HQ, parent: 1st Floor, space_type: room}
+  - {name: Workshop 1, parent: 1st Floor, space_type: room}
+  - {name: Workshop 2, parent: 1st Floor, space_type: room}
+  - {name: Karaoke/Dance, venue_designated_name: Mirabelle, parent: 1st Floor, space_type: room}
+  - {name: Photo Suite, parent: 1st Floor, space_type: area}
+  - {name: Double Tree Info Desk, parent: 1st Floor, space_type: area}
+
+  - {name: 2nd Floor, parent: Double Tree Hotel, space_type: floor, map_image: dt_2nd_floor.png}
+  - {name: Panel 2, venue_designated_name: Bridgewater, parent: 1st Floor, space_type: room}
+  - {name: Panel 3, venue_designated_name: Bedminster, parent: 2nd Floor, space_type: room}
+  - {name: Panel 4, venue_designated_name: Tewksbury, parent: 2nd Floor, space_type: room}
+  - {name: Panel 5, venue_designated_name: Princeton, parent: 2nd Floor, space_type: room}
+  - {name: Panel 6, venue_designated_name: Westfield, parent: 2nd Floor, space_type: room}
+  - {name: Workshop 3, venue_designated_name: Bernardsville, parent: 2nd Floor, space_type: room}
+  - {name: Workshop 4, venue_designated_name: Hillsboroug, parent: 2nd Floor, space_type: room}
+  - {name: LARP, parent: 2nd Floor, space_type: room}
+
+  - {name: Garden State Expo Center, parent: GSEC Campus 2010, space_type: building, map_image: gsec.png}
+  - {name: Dealer's Room, parent: Garden State Expo Center, space_type: room}
+  - {name: Main Events, parent: Garden State Expo Center, space_type: area}
+  - {name: Main Events B, parent: Garden State Expo Center, space_type: area}
+  - {name: Main Events C, parent: Garden State Expo Center, space_type: area}
+  - {name: Arena, parent: Garden State Expo Center, space_type: area}
+  - {name: GSEC Info Desk, parent: Garden State Expo Center, space_type: area}
+  - {name: Registration, parent: Garden State Expo Center, space_type: area}
+  - {name: Volunteers, parent: Garden State Expo Center, space_type: room}
+  - {name: Con Ops, parent: Garden State Expo Center, space_type: area}
+  - {name: Con Safety and Lost & Found, parent: Garden State Expo Center, space_type: room}
+
+  - {name: Training Center, parent: GSEC Campus 2010, space_type: building, map_image: training_center.png, address: "9-27 Atrium Drive\nSomerset, NJ 08773"}
+  - {name: Video Ops, venue_designated_name: Dogwood, space_type: room, parent: Training Center}
+  - {name: Video 1, venue_designated_name: Maple, space_type: room, parent: Training Center}
+  - {name: Video 2, venue_designated_name: Magnolia, space_type: room, parent: Training Center}
+  - {name: Video 3, venue_designated_name: Elm, space_type: room, parent: Training Center}
+  - {name: Video 4, venue_designated_name: Red Oak, space_type: room, parent: Training Center}
+  - {name: Video 5, venue_designated_name: Sycamore, space_type: room, parent: Training Center}
+
+reservations:
+  - {event: BlazBlue & King of Fighters 2002 Ultimate Match, reservable_type: Space, reservable: Video Gaming}
+  - {event: Tatsunoki vs. Capcom & Vampire Savior, reservable_type: Space, reservable: Video Gaming}
+  - {event: Dealers Room Friday, reservable_type: Space, reservable: Dealer's Room}
+  - {event: Manga Library Friday, reservable_type: Space, reservable: Manga Library}
+  - {event: Art Show, reservable_type: Space, reservable: Artist's Alley}
+  - {event: Masquerade Rehearsal Part 1, reservable_type: Space, reservable: Main Events}
+  - {event: Launch Party, reservable_type: Space, reservable: Main Events}
+  - {event: Kenji Kamiyama, reservable_type: Space, reservable: Main Events}
+  - {event: Concert Seating, reservable_type: Space, reservable: Main Events}
+  - {event: Stereopony Concert, reservable_type: Space, reservable: Main Events}
+  - {event: Uncle Yo, reservable_type: Space, reservable: Main Events}
+  - {event: Cosplay Burlesque, reservable_type: Space, reservable: Main Events}
+  - {event: AMV Screening, reservable_type: Space, reservable: Main Events B}
+  - {event: Kenji Kamiyama Autograph Session, reservable_type: Space, reservable: Main Events B}
+  - {event: Anime Parliament, reservable_type: Space, reservable: Main Events B}
+  - {event: Stereopony Green Room, reservable_type: Space, reservable: Main Events C}
+  - {event: Sleeping Samurai, reservable_type: Space, reservable: Arena}
+  - {event: Big Bald Broadcast, reservable_type: Space, reservable: Panel 1}
+  - {event: Crossplay for Girls, reservable_type: Space, reservable: Panel 1}
+  - {event: 'Baron Munchausen - Charity Drive', reservable_type: Space, reservable: Panel 1}
+  - {event: 'Hetalia: 2010 World Summit', reservable_type: Space, reservable: Panel 1}
+  - {event: 'Robotech: Goes to the Movies', reservable_type: Space, reservable: Panel 1}
+  - {event: 'Greg Ayres: From Host Club to Hospital', reservable_type: Space, reservable: Panel 1}
+  - {event: These are a Few of my Favorite Scenes, reservable_type: Space, reservable: Panel 2}
+  - {event: Convention Ettiquete, reservable_type: Space, reservable: Panel 2}
+  - {event: How to Spot Bootleg Merchandise, reservable_type: Space, reservable: Panel 2}
+  - {event: Soul Eater Fan Panel, reservable_type: Space, reservable: Panel 2}
+  - {event: "Elrik Blackwolf's Storyline Writina", reservable_type: Space, reservable: Panel 2}
+  - {event: "Dead Like Us: Shinigami", reservable_type: Space, reservable: Panel 2}
+  - {event: "Ask the Organization", reservable_type: Space, reservable: Panel 2}
+  - {event: "Restricted Rock, Paper, Scissors", reservable_type: Space, reservable: Panel 2}
+  - {event: "18+ Anime Uncensored", reservable_type: Space, reservable: Panel 2}
+
+rules:
+  - {type: IsRelatedRule, event: Concert Seating, relation: before, related_event: Stereopony Concert}
+  - {type: IsRelatedRule, event: Stereopony Concert, relation: after,  related_event: Concert Seating}
+
+schedules:
+  - name: Friday Events
+    start: "June 18th 2010 10am"
+    end: "June 19th 2010 2am"
+    reservables:
+      - Video Gaming
+      - Dealer's Room
+      - Manga Library
+      - Artist's Alley
+      - Main Events
+      - Main Events B
+      - Main Events C
+      - Arena
+      - Panel 1
+      - Panel 2
+      - Panel 3
+      - Panel 4
+      - Panel 5
+      - Panel 6
+
+profiles:
+  - {name: Robert Rustay, role: "executive board:chairman"}
+  - {name: Annerys Alba, role: "executive board:vice-chair"}
+  - {name: James Chun, role: "executive board:vice-chair"}
+  - {name: Andrew Green, role: "executive board:vice-chair"}
+
+  - {name: Tommy Callahan, role: "anime music videos:head"}
+  - {name: Heather Boyd, role: "anime music videos:staff"}
+
+  - {name: Kara 'Inyx' Sewall, role: "artist alley:head" }
+  - {name: Jay Chang, role: "artist alley:staff"}
+  - {name: Satsuki Fujimoto, role: "artist alley:staff"}
+  - {name: Chris Seeselberg, role: "artist alley:staff"}
+  - {name: Loan Kim Tran, role: "artist alley:staff"}
+  - {name: Allison Smith, role: "artist alley:staff"}
+
+  - {name: Andrew Johnson, role: "av tech:head"}
+  - {name: Albert Alonso, role: "av tech:staff"}
+  - {name: Eric Barbosa, role: "av tech:staff"}
+  - {name: Melissa Choyce, role: "av tech:staff"}
+  - {name: Gabriel Fequiere Jr., role: "av tech:staff"}
+  - {name: Michael Ferrador, role: "av tech:staff"}
+  - {name: Matthew Keyser, role: "av tech:staff"}
+  - {name: James Maguire, role: "av tech:staff"}
+  - {name: Fred Ng, role: "av tech:staff"}
+  - {name: Xavier Rios, role: "av tech:staff"}
+  - {name: Louis Simons, role: "av tech:staff"}
+  - {name: Lucky Singh, role: "av tech:staff"}
+  - {name: Eric Torgersen, role: "av tech:vice-head"}
+  - {name: Gordon Virasawmi, role: "av tech:staff"}
+  - {name: Danny Virasawmi, role: "av tech:staff"}
+
+  - {name: Joshua Berit, role: "con safety:head"}
+  - {name: Christopher Adragna, role: "con safety:staff"}
+  - {name: Jason Breeden, role: "con safety:staff"}
+  - {name: Alex Cajuste, role: "con safety:staff"}
+  - {name: Jamar Covington, role: "con safety:staff"}
+  - {name: Kyle Cumberbatch, role: "con safety:staff"}
+  - {name: Maggie DeSantis, role: "con safety:staff"}
+  - {name: Adam Dutra, role: "con safety:staff"}
+  - {name: Amaris Febus, role: "con safety:staff"}
+  - {name: Meghan Feeney, role: "con safety:staff"}
+  - {name: John Gervasoni, role: "con safety:staff"}
+  - {name: Barbara Green, role: "con safety:staff"}
+  - {name: Liana Grey, role: "con safety:staff"}
+  - {name: Amanda Fazio, role: "con safety:staff"}
+  - {name: Nicole Jabour, role: "con safety:staff"}
+  - {name: Nicholas Jabour, role: "con safety:staff"}
+  - {name: Joshua Jackson, role: "con safety:staff"}
+  - {name: Kenneth Hunt, role: "con safety:staff"}
+  - {name: Michael Kashner, role: "con safety:staff"}
+  - {name: Mallory Keese, role: "con safety:staff"}
+  - {name: Angela Minton, role: "con safety:staff"}
+  - {name: Frank Natal, role: "con safety:staff"}
+  - {name: Matthew Natal, role: "con safety:staff"}
+  - {name: Jesus Nieves, role: "con safety:staff"}
+  - {name: Isa Pagani, role: "con safety:staff"}
+  - {name: Jasen Paird, role: "con safety:staff"}
+  - {name: Nelson Rodriguez, role: "con safety:staff"}
+  - {name: Gwen Ruhl, role: "con safety:staff"}
+  - {name: Matt Rusen, role: "con safety:staff"}
+  - {name: Kamil Sada, role: "con safety:staff"}
+  - {name: Benjamin Schoedel, role: "con safety:staff"}
+  - {name: Kennya Seeney, role: "con safety:staff"}
+  - {name: Mark Silvetti, role: "con safety:staff"}
+  - {name: Maryellen Sloan, role: "con safety:staff"}
+  - {name: Ashley Stephenson, role: "con safety:staff"}
+  - {name: Jose Torres, role: "con safety:staff"}
+  - {name: Andrew Varga, role: "con safety:staff"}
+  - {name: Christina Velez, role: "con safety:staff"}
