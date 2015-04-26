@@ -7,4 +7,8 @@ class PlacesController < ApplicationController
       render json: Place.all
     end
   end
+
+  def show
+    render json: Place.find(params[:id])
+  end
 end

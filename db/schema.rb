@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150425000310) do
+ActiveRecord::Schema.define(version: 20150425234545) do
 
   create_table "cons", force: :cascade do |t|
     t.string   "name"
@@ -41,5 +41,37 @@ ActiveRecord::Schema.define(version: 20150425000310) do
 
   add_index "places", ["con_id"], name: "index_places_on_con_id"
   add_index "places", ["parent_id"], name: "index_places_on_parent_id"
+
+  create_table "reservations", force: :cascade do |t|
+    t.integer  "event_id"
+    t.integer  "reservable_id"
+    t.string   "reservable_type"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+  end
+
+  add_index "reservations", ["event_id"], name: "index_reservations_on_event_id"
+  add_index "reservations", ["reservable_type", "reservable_id"], name: "index_reservations_on_reservable_type_and_reservable_id"
+
+  create_table "schedule_places", force: :cascade do |t|
+    t.integer  "place_id"
+    t.integer  "schedule_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  add_index "schedule_places", ["place_id"], name: "index_schedule_places_on_place_id"
+  add_index "schedule_places", ["schedule_id"], name: "index_schedule_places_on_schedule_id"
+
+  create_table "schedules", force: :cascade do |t|
+    t.datetime "start"
+    t.datetime "finish"
+    t.string   "name"
+    t.integer  "con_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "schedules", ["con_id"], name: "index_schedules_on_con_id"
 
 end

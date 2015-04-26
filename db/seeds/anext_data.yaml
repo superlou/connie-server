@@ -306,9 +306,9 @@ rules:
 
 schedules:
   - name: Friday Events
-    start: "June 18th 2010 10am"
-    end: "June 19th 2010 2am"
-    reservables:
+    start: June 18th 2010 10am
+    finish: June 19th 2010 2am
+    places:
       - Video Gaming
       - Dealer's Room
       - Manga Library

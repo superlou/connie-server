@@ -8,6 +8,9 @@ puts "Deleting existing data"
 Con.delete_all
 Event.delete_all
 Place.delete_all
+Schedule.delete_all
+SchedulePlace.delete_all
+Reservation.delete_all
 
 def load_convention(file_name)
   data = YAML::load(File.open(file_name))
@@ -45,6 +48,28 @@ def load_convention(file_name)
         e.start = DateTime.parse("#{event["start"]} EST")
         e.finish = DateTime.parse("#{event["end"]} EST")
         e.save
+      end
+
+      if event['reserves']
+        e.reservations.create!(reservable: Place.find_by(name: event['reserves']))
+      end
+    end
+  end
+
+  convention_schedules = data['schedules']
+  if convention_schedules
+    puts "Creating example schedules"
+
+    convention_schedules.each do |schedule|
+      puts "- #{schedule["name"]}"
+      s = convention.schedules.create!(
+                          name: schedule['name'],
+                          start: DateTime.parse("#{schedule['start']} EST"),
+                          finish: DateTime.parse("#{schedule['finish']} EST")
+                          )
+
+      schedule['places'].each do |place|
+        s.schedule_places.create(place: Place.find_by(name: place))
       end
     end
   end
