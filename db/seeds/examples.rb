@@ -5,7 +5,7 @@ require 'open-uri'
 
 puts "== Add Example Data =="
 puts "Deleting existing data"
-Con.delete_all
+Convention.delete_all
 Event.delete_all
 Place.delete_all
 Schedule.delete_all
@@ -16,7 +16,7 @@ def load_convention(file_name)
   data = YAML::load(File.open(file_name))
 
   puts "Creating example convention"
-  convention = Con.create!(:name => data["convention"]["name"])
+  convention = Convention.create!(:name => data["convention"]["name"])
   puts "- #{convention.name}"
 
   convention_places = data["places"]
@@ -26,7 +26,7 @@ def load_convention(file_name)
     convention_places.each do |place|
       p = Place.create!(name: place["name"],
                         parent: Place.find_by(name: place["parent"]),
-                        con: convention
+                        convention: convention
                         )
 
       puts "- #{p.name}"
@@ -41,7 +41,7 @@ def load_convention(file_name)
       puts "- #{event["name"]}"
       e = Event.create!(name: event["name"],
                         description: event["description"],
-                        con: convention
+                        convention: convention
                         )
 
       if event['start'] and event['end']

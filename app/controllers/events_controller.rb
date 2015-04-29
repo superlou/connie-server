@@ -1,8 +1,8 @@
 class EventsController < ApplicationController
   def index
-    if params['con_id']
-      con = Con.find(params['con_id'])
-      render json: con.events
+    if params['convention_id']
+      convention = Convention.find(params['convention_id'])
+      render json: convention.events
     else
       render json: Event.all
     end
@@ -32,6 +32,6 @@ class EventsController < ApplicationController
   private
 
   def event_params
-    params.require(:event).permit(:name, :description, :con_id, :start, :finish)
+    params.require(:event).permit(:name, :description, :convention_id, :start, :finish)
   end
 end

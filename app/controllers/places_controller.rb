@@ -1,8 +1,8 @@
 class PlacesController < ApplicationController
   def index
-    if params['con_id']
-      con = Con.find(params['con_id'])
-      render json: con.places
+    if params['convention_id']
+      convention = Convention.find(params['convention_id'])
+      render json: convention.places
     else
       render json: Place.all
     end

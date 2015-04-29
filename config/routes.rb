@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   scope :api, defaults: { format: :json } do
-    resources :cons, except: [:new, :edit]
+    resources :conventions, except: [:new, :edit]
     resources :schedules, except: [:new, :edit]
     resources :events, except: [:new, :edit]
     resources :places, except: [:new, :edit]

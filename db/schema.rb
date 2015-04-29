@@ -11,9 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150425234545) do
+ActiveRecord::Schema.define(version: 20150428223914) do
 
-  create_table "cons", force: :cascade do |t|
+  create_table "conventions", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -22,24 +22,24 @@ ActiveRecord::Schema.define(version: 20150425234545) do
   create_table "events", force: :cascade do |t|
     t.string   "name"
     t.text     "description"
-    t.integer  "con_id"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.integer  "convention_id"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
     t.datetime "start"
     t.datetime "finish"
   end
 
-  add_index "events", ["con_id"], name: "index_events_on_con_id"
+  add_index "events", ["convention_id"], name: "index_events_on_convention_id"
 
   create_table "places", force: :cascade do |t|
     t.integer  "parent_id"
-    t.integer  "con_id"
+    t.integer  "convention_id"
     t.string   "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
-  add_index "places", ["con_id"], name: "index_places_on_con_id"
+  add_index "places", ["convention_id"], name: "index_places_on_convention_id"
   add_index "places", ["parent_id"], name: "index_places_on_parent_id"
 
   create_table "reservations", force: :cascade do |t|
@@ -67,11 +67,11 @@ ActiveRecord::Schema.define(version: 20150425234545) do
     t.datetime "start"
     t.datetime "finish"
     t.string   "name"
-    t.integer  "con_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "convention_id"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
-  add_index "schedules", ["con_id"], name: "index_schedules_on_con_id"
+  add_index "schedules", ["convention_id"], name: "index_schedules_on_convention_id"
 
 end

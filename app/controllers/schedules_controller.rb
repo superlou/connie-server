@@ -1,8 +1,8 @@
 class SchedulesController < ApplicationController
   def index
-    if params['con_id']
-      con = Con.find(params['con_id'])
-      render json: con.schedules
+    if params['convention_id']
+      convention = Convention.find(params['convention_id'])
+      render json: convention.schedules
     else
       render json: Schedule.all
     end
