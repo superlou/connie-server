@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     resources :schedules, except: [:new, :edit]
     resources :events, except: [:new, :edit]
     resources :places, except: [:new, :edit]
+    resources :reservations, except: [:new, :edit]
   end
 
   # The priority is based upon order of creation: first created -> highest priority.
