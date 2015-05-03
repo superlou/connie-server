@@ -1,4 +1,9 @@
 class ReservationsController < ApplicationController
+  def create
+    reservation = Reservation.create!(reservation_params)
+    render json: reservation
+  end
+
   def update
     reservation = Reservation.find(params[:id])
     reservation.update(reservation_params)
